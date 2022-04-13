@@ -1,0 +1,87 @@
+html{
+    background-color: rgb(206, 213, 214);/*背景色*/
+}
+
+.bg{
+    background-image: url(background_00019.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;/*文字色*/
+    text-align: center;/*文字位置*/
+}
+
+h2{
+    background: linear-gradient(transparent 70%,rgb(113, 113, 113));
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.sample{
+    text-align: center;
+}
+
+nav{
+    width: 100%;/*横幅*/
+    height: 70px;/*高さ*/
+    background-color: rgb(163, 163, 163);/*メニューバーの色*/
+    padding: 5px;/*余白*/
+    box-sizing: border-box;
+}
+
+a{
+    color: rgb(255, 255, 255);/*メニューバーの文字色*/
+    margin: 10px;
+}
+
+ul{
+    display: flex;/*横に並べる*/
+}
+
+li{
+    list-style: none;/*箇条書きを消す*/
+}
+
+.side{
+    background-color: rgb(146, 146, 146);
+    width: 10%;
+    height: 600px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10%;
+}
+
+.main{
+    width: 70%;
+    height: 600px;
+    margin-left: 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+.kuni{
+    text-align: center;
+}
+
+article{
+    display: flex;
+}
+
+.kakomi {
+    text-align: center;/*文字位置*/
+    margin: 2em auto;/*外余白*/
+    padding: 1em;/*内余白*/
+    width: 700px;/*横幅*/
+    line-height: auto;/*行の高さ*/
+    background-color: rgb(228, 228, 228);/*背景色*/
+}
+
+
+
+/*自己紹介
+　趣味
+　出身
+　
